@@ -1,10 +1,17 @@
-import { Wrapper, Title, Description } from './styles'
+import { Wrapper, Header, Title, Description, ActionBar } from './styles'
+import SearchBar from 'components/SearchBar'
 
 const Main = () => {
   return (
     <Wrapper>
-      <Title>Hello Main</Title>
-      <Description>This is a description</Description>
+      <Header>
+        <Title>VUTTR</Title>
+        <Description>Very Useful Tools to Remember</Description>
+
+        <ActionBar>
+          <SearchBar />
+        </ActionBar>
+      </Header>
     </Wrapper>
   )
 }
