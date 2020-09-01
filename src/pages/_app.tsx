@@ -9,6 +9,7 @@ const App = ({ Component, pageProps }: AppProps) => {
       <Head>
         <title>VUTTR</title>
         <link rel="shortcut icon" href="#" />
+        <link rel="manifest" href="/manifest.json" />
         <meta name="description" content="Very Useful Tools to Remember" />
       </Head>
       <GlobalStyle />
